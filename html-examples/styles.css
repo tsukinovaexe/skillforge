@@ -1,0 +1,71 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
+
+h1 {
+    color: yellow;
+}
+
+/* TEKSTIT */
+.iso {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.verdana {
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.punainen {
+    color: red;
+    font-size: 20px;
+}
+
+.goodbye {
+    font-size: 25px;
+}
+
+/* TAULUKOT */
+table {
+    margin: auto;
+}
+
+.teksti td {
+    padding: 10px;
+}
+
+.kuvat td {
+    width: 150px;
+    height: 150px;
+}
+
+/* KUVAT CSS:N KAUTTA */
+.img1 {
+    background-image: url("kuvat/samurai.jpg");
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url("kuvat/biking.jpg");
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url("kuvat/htmlpic.jpg");
+    background-size: cover;
+}
+
+/* LINKKI */
+a {
+    color: lightgreen;
+    font-size: 20px;
+}
+
+a:hover {
+    color: orange;
+}
