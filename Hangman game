@@ -1,0 +1,5 @@
+import random
+
+print("Welcome welcome, to my Word Guessing Game!")
+print("So nice to see that you took time away to play my game, appreciate that ;)")
+
