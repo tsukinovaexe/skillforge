@@ -9,3 +9,4 @@ This is my personal learning repository where I practice Python, cybersecurity b
 
 ## Goal
 To improve my coding skills and build real-world projects step by step.
+The main goal is i just wanna make cool stuff.
