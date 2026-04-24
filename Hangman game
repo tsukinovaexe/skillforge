@@ -3,3 +3,38 @@ import random
 print("Welcome welcome, to my Word Guessing Game!")
 print("So nice to see that you took time away to play my game, appreciate that ;)")
 
+sana = "samurai"
+
+# 1. count attempts
+yritykset = 0
+max_yritykset = 5
+
+# 3 & 4. show hints at start
+print("The word has", len(word), "letter")
+print("The first word is:", word[0])
+
+while True:
+    arvaus = input("Guess the word: ")
+    yritykset += 1
+
+    if arvaus == sana:
+        print(f"Correct! You won in {attempts} attempts!")
+        break
+    else:
+        print("Wrong") 
+
+# 2. lose after 5 attempts
+if yritykset >= max_yritykset:
+    print("You lost bro! The word was:", word)
+    break
+
+# Ask if you want a clue
+vihje = input("You want a clue? (k/e): ")
+
+if vihje == "s":
+   kirjain = input("Give a letter for the clue: ")
+
+if kirjain in sana:
+    print("Yess! The letter was found in the word")
+else:
+    print("Not found in the clue")
